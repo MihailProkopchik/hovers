@@ -1,0 +1,39 @@
+ul {
+	list-style-type: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Arial",sans-serif;
+	line-height: 40px;
+	width: 200px;
+}
+
+.block8 {
+	text-align: center;
+}
+
+.block8	 a:hover {
+	font-size: 25px;
+	color: red;
+}
+
+ul a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+}
+
+ul a:hover {
+	color: white;
+}
+
+ul a:link {
+	text-decoration: none;	
+}
+
+li:hover {
+	background-color: red;
+	color: white;	
+}
+
+
