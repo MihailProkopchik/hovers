@@ -1,0 +1,42 @@
+body {
+	width: 100vw;
+	height: 100vh;	
+	margin: 0;
+	padding: 0;
+	background-color: #339D53;
+}
+
+.block1 {
+	background-color: black;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: 50%;
+	left: 50%;	
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 50%;
+}
+	
+.block2 {
+	background-color: orange;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;	
+	margin-top: -100px;
+	margin-left: -100px;
+	border-radius: 50%;
+}
+
+.block1:hover {
+	background-color: orange;
+}
+
+.block1:hover .block2 {
+	background-color: black;
+}
+
+
+
