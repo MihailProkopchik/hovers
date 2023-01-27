@@ -1,0 +1,33 @@
+.block {
+	color: blue;
+	line-height: 30px;
+}
+
+.block2:hover {	
+	color: red;
+}
+
+.block3:hover {
+	color: green;	
+}
+
+.block4:hover {		
+	color: red;
+}
+
+.block5:hover {
+	color: gold;	
+}
+
+.block6:hover {
+	color: red;
+}
+
+.block7:hover {
+	color: #00FFCD;
+	
+}
+
+
+
+
